@@ -48,6 +48,9 @@ const negativePowerLevelNames = [
     "Atomares Wesen (-60)",
     "Blattschwanzgecko (-70)",
     "Mir fällt nix mehr ein (-80)",
+    "Let's Robot (-90)",
+    "Frankreich (-100)",
+    "Javascript (-110)"
 ]
 const powerLevelNames = [
     "Goldfisch (0)",
@@ -67,7 +70,10 @@ const powerLevelNames = [
     "Giganotosaurus (140)",
     "Gigamegasupersaurus (150)",
     "Gepanzertes Känguru (160)",
-    "Kampfquokka (170)"
+    "Kampfquokka (170)",
+    "1.50€ Hamburger vom McDonalds (180)",
+    "Java (190)",
+    "Brick4Future (200)",
 ]
 
 window.onload = async function() {
