@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Would Win</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="sideContainer">
+        <div id="fightButtonContainer">
+            <input type="image" src="fight_button.png" alt="fightButton" id="fightButton" onclick="fight()">
+        </div>
+        <div class="sides" id="leftSide">
+            <div class="names">
+                <label class="nameLabels" style="margin-right: 10%">
+                    <input class="nameInputs" type="text" id="leftInput" oninput="checkFightButton()">
+                </label>
+            </div>
+            <div class="winDisplay" id="leftWinDisplay">
+                <b class="winTexts" id="leftWinText"></b>
+            </div>
+            <div class="powerLevels" id="leftPowerLevel">
+                <span class="powerLevelSpans" id="leftPowerLevelSpan">
+
+                </span>
+            </div>
+            <div class="extras" id="leftExtras">
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="baggerLeft">
+                    </label>
+                    <p class="extraTexts">Bagger</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="motorisiertesKanguruLeft">
+                    </label>
+                    <p class="extraTexts">Motorisiertes Känguru</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="ak47Left">
+                    </label>
+                    <p class="extraTexts">AK 47</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="shibaInuLeft">
+                    </label>
+                    <p class="extraTexts">Shiba Inu</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="fordMustangLeft">
+                    </label>
+                    <p class="extraTexts">Ford Mustang Mach-E</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="macBookLeft">
+                    </label>
+                    <p class="extraTexts">MacBook Air M4</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="hypixelLeft">
+                    </label>
+                    <p class="extraTexts">Hypixel MVP++</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="krokodilLeft">
+                    </label>
+                    <p class="extraTexts">Gezähmtes Krokodil</p>
+                </div>
+            </div>
+        </div>
+        <div class="sides" id="rightSide">
+            <div class="names">
+                <label class="nameLabels" style="margin-left: 10%">
+                    <input class="nameInputs" type="text" id="rightInput" oninput="checkFightButton()">
+                </label>
+            </div>
+            <div class="winDisplay" id="rightWinDisplay">
+                <b class="winTexts" id="rightWinText"></b>
+            </div>
+            <div class="powerLevels" id="rightPowerLevel">
+                <span class="powerLevelSpans" id="rightPowerLevelSpan">
+
+                </span>
+            </div>
+            <div class="extras" id="rightExtras">
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="baggerRight">
+                    </label>
+                    <p class="extraTexts">Bagger</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="motorisiertesKanguruRight">
+                    </label>
+                    <p class="extraTexts">Motorisiertes Känguru</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="ak47Right">
+                    </label>
+                    <p class="extraTexts">AK 47</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="shibaInuRight">
+                    </label>
+                    <p class="extraTexts">Shiba Inu</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="fordMustangRight">
+                    </label>
+                    <p class="extraTexts">Ford Mustang Mach-E</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="macBookRight">
+                    </label>
+                    <p class="extraTexts">MacBook Air M4</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="hypixelRight">
+                    </label>
+                    <p class="extraTexts">Hypixel MVP++</p>
+                </div>
+                <div class="extra">
+                    <label class="extraLabels">
+                        <input type="checkbox" class="extraInputs" id="krokodilRight">
+                    </label>
+                    <p class="extraTexts">Gezähmtes Krokodil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

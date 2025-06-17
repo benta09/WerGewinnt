@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#bar {
+    width: 100%;
+    height: 15%;
+    border: #202020 8px solid;
+    display: flex;
+}
+
+#leftBarSide {
+    border-right: #f0f0f0 5px solid;
+    width: 50%;
+    background-color: forestgreen;
+}
+
+#rightBarSide {
+    border-left: #f0f0f0 5px solid;
+    width: 50%;
+    background-color: darkred;
+}
+
+.barSides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.percentages {
+    color: white;
+    font-size: 4rem;
+    font-family: "Arial Black", serif;
+}
+
+#sideContainer {
+    display: flex;
+    height: 93%;
+}
+
+.sides {
+    height: 100%;
+    width: 50%;
+}
+
+.names {
+    background-color: lightgrey;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 4px solid;
+}
+
+.nameLabels {
+    width: 55%;
+    height: 40%;
+}
+
+.nameInputs {
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#leftExtras {
+    border-right: black 3px solid;
+}
+
+#rightExtras {
+    border-left: black 3px solid;
+}
+
+.powerLevels {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftPowerLevel {
+    border-right: black 3px solid;
+}
+
+#rightPowerLevel {
+    border-left: black 3px solid;
+}
+
+.powerLevelSpans {
+    font-size: 50px;
+}
+
+.extras {
+    width: 100%;
+    height: 75%;
+    padding-top: 3%;
+}
+
+.extra {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.extraLabels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraTexts {
+    font-size: 60px;
+    font-family: "Arial Black", serif;
+}
+
+.extraInputs {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.winDisplay {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winTexts {
+    font-size: 5rem;
+    color: black;
+    font-family: "Arial Black", monospace
+}
+
+#leftWinDisplay {
+    border-right: black 3px solid;
+    border-bottom: black 4px dashed
+}
+
+#rightWinDisplay {
+    border-left: black 3px solid;
+    border-bottom: black 4px dashed
+}
+
+#fightButtonContainer {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fightButton {
+    visibility: hidden;
+    pointer-events: all;
+    width: 12%;
+    height: 80%;
+}
+
+#leftSide {
+    background-color: #b4ecb4;
+}
+
+#rightSide {
+    background-color: #ffb2ae;
+}
+
+footer {
+    height: 7%;
+    width: 100%;
+    background-color: aliceblue;
+    border-top: black 4px solid;
+}
