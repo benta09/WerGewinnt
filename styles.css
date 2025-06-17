@@ -122,13 +122,13 @@ html, body {
 }
 
 .extraTexts {
-    font-size: 60px;
+    font-size: 2rem;
     font-family: "Arial Black", serif;
 }
 
 .extraInputs {
-    width: 40px;
-    height: 40px;
+    width: 2rem;
+    height: 2rem;
     margin-right: 20px;
 }
 
